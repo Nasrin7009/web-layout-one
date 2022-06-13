@@ -1,0 +1,103 @@
+* { border: 0px; outline: 0px; box-sizing: border-box; text-decoration: none; }
+section { text-align: center; width: 100%; float: left; }
+.dash { width: 7%; border: 2px solid rgba(13, 24, 23, 0.23); margin: 27px auto; display: block; }
+.container { width: 90%; margin: auto; }
+header { width: 100%; float: left; background-color: rgb(135, 80, 156); color: white; padding: 50px 0px; text-align: center; }
+nav { width: 100%; float: left; }
+.logo-part { width: 40%; float: left; text-align: left; }
+.logo-part img { }
+.menu-part { width: 60%; float: left; }
+.menu-part ul { margin: 12px 0px; }
+.menu-part li { list-style: none; display: inline-block; margin: 0px 15px; }
+.menu-part a { font-size: 20px; color: white; font-family: Arial, Helvetica, sans-serif; font-weight: 600; text-transform: uppercase; padding: 5px; transition: all 0.8s ease 0s; }
+.menu-part a:hover { background-color: rgb(100, 58, 121); border-radius: 10px; }
+.hero { width: 100%; float: left; padding: 110px 0px; }
+.hero h1 { width: 85%; font-size: 35px; margin: auto; }
+.hero button { width: 220px; padding: 12px; font-size: 20px; margin: 35px; text-transform: uppercase; background-color: rgb(235, 125, 75); color: white; border: 5px solid rgb(235, 125, 75); box-shadow: rgb(201, 100, 11) 3px 3px; transition: all 0.8s ease 0s; }
+.hero button:hover { background-color: saddlebrown; color: black; font-weight: 600; }
+#service { background-color: rgb(23, 194, 164); color: white; }
+.service-one { width: 100%; float: left; }
+.service-one h1 { font-size: 40px; word-spacing: 8px; letter-spacing: 3px; }
+.service-one p { font-size: 20px; word-spacing: 2px; }
+.service-two { width: 100%; float: left; }
+.service-box { width: 25%; float: left; }
+.service-box img { margin: 45px 0px; }
+.service-box h2 { width: 82%; }
+.service-box p { width: 78%; }
+#team { background-color: rgb(231, 241, 248); }
+.team-one { width: 100%; float: left; }
+.team-one h1 { font-size: 40px; word-spacing: 8px; letter-spacing: 3px; text-transform: uppercase; }
+.team-one p { font-size: 20px; word-spacing: 2px; }
+.team-two { width: 100%; float: left; }
+.team-box { width: 25%; float: left; }
+.team-box img { margin-top: 72px; margin-bottom: 20px; width: 58%; }
+.team-box h2 { text-transform: uppercase; width: 100%; font-size: 27px; }
+.team-box h3 { width: 96%; }
+.team-box p { width: 94%; }
+.icon { margin: 25px; }
+.icon i { padding: 9px; color: white; background-color: rgb(189, 209, 223); border-radius: 101px; width: 13%; margin: 0px 5px; }
+#skill { background-color: rgb(255, 255, 255); }
+.skill-one { width: 100%; float: left; }
+.skill-one h1 { text-transform: uppercase; word-spacing: 5px; letter-spacing: 2px; font-size: 40px; }
+.skill-one p { font-size: 19px; width: 45%; margin: 31px auto; }
+.skill-two { width: 100%; float: left; margin-top: 38px; }
+.skill-box-one { width: 25%; float: left; }
+.skill-box-two { width: 25%; float: left; }
+.skill-box-three { width: 25%; float: left; }
+.skill-box-four { width: 25%; float: left; }
+#portfolio { background-color: rgb(255, 221, 153); }
+.portfolio-one { width: 100%; float: left; }
+.portfolio-one h1 { font-size: 40px; word-spacing: 8px; letter-spacing: 3px; text-transform: uppercase; }
+.portfolio-one p { margin: 20px auto; font-size: 19px; width: 45%; }
+.button { padding: 10px 97px; margin: 42px; }
+.btn-one { padding: 12px 23px; margin: 0px 6px; }
+.btn-two { padding: 12px 20px; background-color: rgb(235, 201, 133); margin: 0px 7px; }
+.portfolio-two { width: 100%; float: left; }
+.img-one { width: 50%; float: left; }
+.img-one img { width: 75%; }
+.img-one h3 { }
+.portfolio-three { width: 100%; float: left; }
+.img-two { width: 50%; float: left; }
+.img-two img { width: 75%; margin-top: 62px; }
+.img-two h3 { }
+.portfolio-four { width: 100%; float: left; }
+.btn-three { padding: 16px 23px; margin: 80px auto; font-size: 17px; background-color: rgb(23, 194, 164); color: white; box-shadow: rgb(23, 194, 164) 0px 0px 9px; }
+#about { background-color: rgb(215, 70, 128); }
+.about-one { width: 100%; float: left; }
+.about-one h1 { font-size: 40px; word-spacing: 8px; letter-spacing: 3px; text-transform: uppercase; }
+.about-one p { font-size: 25px; font-weight: 600; text-transform: capitalize; word-spacing: 4px; letter-spacing: 1px; }
+.about-two { width: 100%; float: left; margin: 90px 0px; }
+.about-img-one { width: 20%; float: left; }
+.about-img-one img { width: 50%; }
+.about-wtn-one { width: 30%; float: left; }
+.about-three { width: 100%; float: left; }
+.about-img-two { width: 20%; float: left; }
+.about-img-two img { width: 50%; }
+.about-wtn-two { width: 30%; float: left; }
+#contact { background-color: rgb(60, 84, 153); color: rgb(255, 255, 255); }
+.contact-one { }
+.contact-one h1 { font-size: 40px; word-spacing: 8px; letter-spacing: 3px; text-transform: uppercase; }
+.contact-one p { font-size: 20px; margin-bottom: 81px; }
+.contact-two { width: 100%; float: left; }
+form { }
+.contact-two form { }
+.form-one { }
+.form-one input { width: 277px; margin: 17px 13px; padding-bottom: 31px; color: white; background-color: rgb(39, 58, 113); }
+.contact-three { width: 100%; float: left; }
+.form-two { }
+.form-two textarea { width: 66px; display: block; margin: auto; }
+.form-two input { }
+.contact-three textarea {background-color: #273a71;width: 587px;color: white;padding-bottom: 119px;text-transform: capitalize;}
+.contact-three input {
+    text-transform: capitalize;
+    padding: 18px 0px;
+    margin: 40px 0px;
+    width: 219px;
+    color: white;
+    background-color: #30bae7;
+    font-size: 18px;
+}
+#footer { background-color: rgb(9, 34, 109); }
+.media { width: 100%; float: left; margin: 50px 0px; }
+.media h3 { display: inline; color: white; text-transform: capitalize; font-size: 22px; padding: 0px 8px; margin: 0px 28px; }
+.media h4 { display: inline; font-size: 22px; text-transform: capitalize; color: rgb(23, 194, 164); margin: 0px 40px; }
